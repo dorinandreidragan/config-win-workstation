@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-vscode.powershell",
+    "vscodevim.vim",
+    "yzhang.markdown-all-in-one",
+    "davidanson.vscode-markdownlint",
+    "github.copilot"
+  ]
+}
