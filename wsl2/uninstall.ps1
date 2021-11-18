@@ -1,5 +1,5 @@
 # Uninstall Ubuntu distro
-run @("wsl", "--unregister", "Ubuntu")
+run "wsl" @("--unregister", "Ubuntu")
 
 # Disable WSL
 Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux -NoRestart
