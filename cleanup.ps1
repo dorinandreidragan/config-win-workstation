@@ -8,6 +8,9 @@
 # Comment out the WSL2 uninstaller for now.
 # & $PSScriptRoot/wsl2/uninstall.ps1
 
+#diagrams
+& $PSScriptRoot/drawio/uninstall.ps1
+
 # devops
 & $PSScriptRoot/vagrant/uninstall.ps1
 & $PSScriptRoot/virtualbox/uninstall.ps1
