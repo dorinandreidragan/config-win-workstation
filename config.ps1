@@ -5,7 +5,9 @@
 # development
 & $PSScriptRoot/vscode/install.ps1
 & $PSScriptRoot/vs2022/install.ps1
-& $PSScriptRoot/wsl2/install.ps1
+# Run installer for wsl2 separately because a restart is needed.
+# For the moment this step should be manually done.
+# & $PSScriptRoot/wsl2/install.ps1
 
 # devops
 & $PSScriptRoot/pwsh/config.ps1
