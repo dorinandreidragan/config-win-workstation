@@ -10,4 +10,6 @@
 # devops
 & $PSScriptRoot/pwsh/config.ps1
 & $PSScriptRoot/vagrant/install.ps1
-& $PSScriptRoot/virtualbox/install.ps1
+# Install version 6.1.26 because version 6.1.28 doesn't 
+# work when VirtualPlatform is enabled (for WSL2)
+& $PSScriptRoot/virtualbox/install.ps1 -Version 6.1.26

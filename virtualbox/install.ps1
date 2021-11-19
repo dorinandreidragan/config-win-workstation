@@ -1,3 +1,11 @@
+[CmdletBinding()]
+param ( [Parameter()] [string] $Version)
+
 . $PSScriptRoot/../common.ps1
 
-run "winget" @("install", "--id", "Oracle.VirtualBox", "--silent")
+$a = @("install", "--id", "Oracle.VirtualBox", "--silent")
+if ($Version) {
+  $a += @("--version", $Version)
+}
+
+run "winget" $a
