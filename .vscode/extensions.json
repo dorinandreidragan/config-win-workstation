@@ -4,6 +4,9 @@
     "vscodevim.vim",
     "yzhang.markdown-all-in-one",
     "davidanson.vscode-markdownlint",
-    "github.copilot"
+    "github.copilot",
+    "ms-vscode-remote.remote-containers",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-wsl"
   ]
 }
