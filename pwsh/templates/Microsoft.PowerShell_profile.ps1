@@ -8,3 +8,5 @@ Set-PSReadLineOption -PredictionSource History
 
 # Set oh-my-posh theme
 Set-PoshPrompt -Theme amro
+
+Start-SshAgent

@@ -18,3 +18,6 @@
 # Install version 6.1.26 because version 6.1.28 doesn't 
 # work when VirtualPlatform is enabled (for WSL2)
 & $PSScriptRoot/virtualbox/install.ps1 -Version 6.1.26
+
+# open-ssh
+& $PSScriptRoot/open-ssh/install.ps1

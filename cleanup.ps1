@@ -14,3 +14,6 @@
 # devops
 & $PSScriptRoot/vagrant/uninstall.ps1
 & $PSScriptRoot/virtualbox/uninstall.ps1
+
+# open-ssh
+& $PSScriptRoot/open-ssh/uninstall.ps1
