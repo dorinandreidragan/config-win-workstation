@@ -5,7 +5,7 @@
     "yzhang.markdown-all-in-one",
     "davidanson.vscode-markdownlint",
     "github.copilot",
-    "vscode-icons-team.vscode-icons",
+    "pkief.material-icon-theme",
     "ms-vscode-remote.remote-containers",
     "ms-vscode-remote.remote-ssh",
     "ms-vscode-remote.remote-wsl"
